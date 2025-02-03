@@ -1,0 +1,151 @@
+
+header
+{
+    
+    font-size:60px;
+    block-size: 10px;
+}
+body{
+    background-color:#78c0e0;
+    text-align: center;
+}
+button:hover{
+    background-color: greenyellow;
+}
+button
+{
+    border-radius: 15px;
+    margin:8px;
+    border:none;
+    box-shadow:10px rgb(0,0,0,0.3); 
+    color:rgb(138, 26, 26);
+}
+#resbtn
+{
+    /* width: 120px; */
+    font-size: 16px;
+    font-weight: bold;
+     border-radius:10px;
+    /*padding-top:52px;
+    padding-bottom:52px; */
+    /* margin-top:500px; */
+}
+#computer
+{
+     width: 200px; 
+    font-size: 16px;
+    font-weight: bold;
+     border-radius:10px;
+    /*padding-top:52px;
+    padding-bottom:52px; */
+    /* margin-top:500px; */
+    color:black;
+    background-color: green;
+    
+}
+#score
+{
+    
+    /* width: 120px; */
+    font-size: 16px;
+    font-weight: bold;
+     border-radius:10px;
+    /*padding-top:52px;
+    padding-bottom:52px; */
+    
+}
+#computer:hover
+{
+    background-color: greenyellow;
+} 
+
+.container{
+
+     display:flex; 
+     justify-content:center;
+     align-items:center;
+      margin-top: -30px;    
+    
+}
+
+.b1{
+    width: 100px;
+    height:100px;
+    
+    
+}
+    button {
+        width: 100px;
+    
+        height: 100px;
+         color: red;
+         font-size:60px;
+         font-weight: bold;   
+    }
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.box3{
+    display: flex;
+}
+.msg
+{
+    height: 30px;
+
+    font-size:50px;
+    color:yellow;  
+    font-weight:bold;
+}
+
+#record
+{
+    /* display: flex;
+    justify-content: left; */
+}
+.player
+{
+    display: flex;
+    font-size: 20px;
+    align-items: left;
+    
+}
+h2{
+    text-align: left;
+}
+span{
+    /* border: solid black 5px; */
+    
+    display: flex;
+    /* font-size: 20px; */
+    align-items: left;
+    width: 20px;
+}
+#clear
+{
+    display: flex;
+    font-size: 12px;
+    height: 30px;
+    width:  80px;
+    align-items: left;
+    color: black;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top:7px;
+}
+#prev
+{
+    display: flex;
+    font-size: 12px;
+    height: 30px;
+    width:  80px;
+    align-items: left;
+    color: black;
+    justify-content: center;
+    border-radius: 5px;
+}
+#winnermsg{
+    margin-top: -150px;
+}
